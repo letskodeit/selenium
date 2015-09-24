@@ -1,0 +1,18 @@
+<suite name="TestSuite">
+<test name="ExpediaSearchPage" preserve-order="true">
+<groups>
+	<define name="Honda and SUV">
+		<include name="Honda" />
+		<include name="SUV" /> 
+		<include name="Sedan" />
+	</define>
+	<run>
+		<include name="Honda and SUV" />
+	</run>
+</groups>
+<classes>
+	<class name="com.expedia.flightsbooking.TestNG_Grouping">
+	</class>
+</classes>
+</test>
+</suite>
